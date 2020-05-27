@@ -61,7 +61,7 @@ const Portfolio = function() {
 			// ],
 
 			strings: [
-				"I am a Beginner to javascript programming."
+				"I design and code beautifully simple things, and I love what I do."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
@@ -69,7 +69,7 @@ const Portfolio = function() {
 			typeSpeed: 1,
 			contentType: 'text',
 			callback: function() {
-				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
+				$("#writing-text").css({"color": "#fff", "background-color": "#4c6d86"});
 			},
 			preStringTyped: function() {},
 			onStringTyped: function() {}
